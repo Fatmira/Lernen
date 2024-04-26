@@ -50,8 +50,7 @@ public class Lernen {
 
     
     switch(Benutzer) { //Die Variable für den Switch nehmen, in dem Fall Benutzer, in dem Fall nur 3 Monate aufgelistet
-		
-		case"Jänner":System.out.println("Du findest den Monat Jänner gut");break; //Auswahl bestätigt durch die Eingabe in Zeile 49
+    case"Jänner":System.out.println("Du findest den Monat Jänner gut");break; //Auswahl bestätigt durch die Eingabe in Zeile 49
     case"Februar":System.out.println("Du findest den Monat Februar gut");break;
     case"März":System.out.println("Du findest den Monat März gut");break;
     default:System.out.println("Dieser Monat ist nicht existent");break;//Um ungültige Eingaben zu erkennen
