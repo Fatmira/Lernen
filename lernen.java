@@ -7,7 +7,7 @@ public class Lernen {
     //Variablen und Datentypen
     int Zahl = 1;  //Datentyp = integer, Variablenname = Zahl
     String Buchstabe = "Hallo"; //Datentyp String, auch einsetzbar mit Zahlen oder anderen Sonderzeichen
-    float Dezimalzahl = 1,23; //Datentyp float
+    float Dezimalzahl = 1.23f; //Datentyp float
 
     //Wie man Variablen einsetzt
     System.out.print("Test"); //Ausgabe in der gleichen Zeile -> print
