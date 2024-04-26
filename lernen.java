@@ -5,9 +5,9 @@ public class Lernen {
     Scanner scan = new Scanner (System.in);
 
     //Variablen und Datentypen
-    int Zahl = "1";  //Datentyp = integer, Variablenname = Zahl
+    int Zahl = 1;  //Datentyp = integer, Variablenname = Zahl
     String Buchstabe = "Hallo"; //Datentyp String, auch einsetzbar mit Zahlen oder anderen Sonderzeichen
-    float Dezimalzahl = "1,23"; //Datentyp float
+    float Dezimalzahl = 1,23; //Datentyp float
 
     //Wie man Variablen einsetzt
     System.out.print("Test"); //Ausgabe in der gleichen Zeile -> print
@@ -24,7 +24,7 @@ public class Lernen {
 
     float user2 = scan.nextFloat(); //Eingabe mit Dezimalzahlen
     int user3 = scan.nextInt(); //Eingabe mit Zahlen
-    string user4 = scan.next(); //Eingabe mit Strings
+    String user4 = scan.next(); //Eingabe mit Strings
 
     //Wie man Mathematik benutzt
     int Zahl1 = 5; //Variable
@@ -41,12 +41,12 @@ public class Lernen {
     
 
     System.out.print("Zahl 1: "); //Ausgabe 
-    int Zahl1Auswahl scan.nextInt(); //Die Eingabe 
+    int Zahl1Auswahl = scan.nextInt(); //Die Eingabe 
     System.out.println(Zahl1Auswahl); //Ausgabe der Eingabe
 
     //Wie man switch und case benutzt
     System.out.print("Welcher Monat ist gut: "); //Die Frage in einer Ausgabe
-    string Benutzer = scan.next(); //Die Eingabe mit einem String und der Variable Benutzer
+    String Benutzer = scan.next(); //Die Eingabe mit einem String und der Variable Benutzer
 
     
     switch(Benutzer) { //Die Variable für den Switch nehmen, in dem Fall Benutzer, in dem Fall nur 3 Monate aufgelistet
